@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="task_types"  >
+        <item>WSZYSTKO</item>
+        <item>SZKOLA</item>
+        <item>PRACA</item>
+        <item>HOBBY</item>
+
+    </string-array>
+    <string-array name="task_types_category"  >
+         <item>SZKOLA</item>
+        <item>PRACA</item>
+        <item>HOBBY</item>
+
+    </string-array>
+    <string-array name="notification_minutes"  >
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>12</item>
+    </string-array>
+</resources>

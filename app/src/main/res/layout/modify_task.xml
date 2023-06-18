@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edytuj  zadanie"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/modifyTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tytuł" />
+
+    <EditText
+        android:id="@+id/modifyDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Opis" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/modifyStartDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:hint="Data stworzenia" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data zakończenia: "
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/modifyEndDateEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Data zakończenia" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/modifyCategorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/task_types_category" />
+
+
+    <CheckBox
+        android:id="@+id/modifyNotificationCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powiadomienie" />
+
+    <CheckBox
+        android:id="@+id/modifyCompletedCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zakończone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Załącznik: "
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/modifyattachmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wybierz"
+            android:onClick="onAttachmentButtonClick" />
+
+        <Button
+            android:id="@+id/modifyclearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wyczyść"
+            android:onClick="onClearButtonClick" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/modifyattachmentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Brak załącznika" />
+
+    <Button
+        android:id="@+id/modifycancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anuluj" />
+
+    <Button
+        android:id="@+id/modifycreateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modyfikuj" />
+
+</LinearLayout>

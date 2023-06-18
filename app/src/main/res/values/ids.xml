@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="titleEditText" type="id" />
+    <item name="descriptionEditText" type="id" />
+    <item name="startDateEditText" type="id" />
+    <item name="categorySpinner" type="id" />
+    <item name="createButton" type="id" />
+    <item name="cancelButton" type="id" />
+    <item name="attachmentEditText" type="id" />
+    <item name="completedCheckBox" type="id" />
+    <item name="notificationCheckBox" type="id" />
+    <item name="endDateEditText" type="id" />
+    <item name="modifyTitleEditText" type="id" />
+    <item name="modifyDescriptionEditText" type="id" />
+    <item name="modifyStartDateEditText" type="id" />
+    <item name="modifyEndDateEditText" type="id" />
+    <item name="modifyCancelButton" type="id" />
+    <item name="modifyButton" type="id" />
+    <item name="modifyAttachmentEditText" type="id" />
+    <item name="modifyCompletedCheckBox" type="id" />
+    <item name="modifyNotificationCheckBox" type="id" />
+    <item name="modifyCategorySpinner" type="id" />
+</resources>

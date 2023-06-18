@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="notifications"
+        app:title="Powiadomienia">
+
+
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/notification_minutes"
+            app:entryValues="@array/notification_minutes"
+            app:key="notification_hours"
+            app:title="Godziny powiadomień"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="filter_category"
+        app:title="Filtrowanie">
+
+        <SwitchPreferenceCompat
+            app:key="completed_tasks"
+            app:defaultValue="true"
+            app:title="Pokaż ukończone zadania"/>
+
+        <ListPreference
+            app:defaultValue="WSZYSTKO"
+            app:entries="@array/task_types"
+            app:entryValues="@array/task_types"
+            app:key="task_types"
+            app:title="Rodzaj wyświetlanych zadań"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
